@@ -1,0 +1,256 @@
+#identification
+1	caseid # case id
+
+# General environmental views (2-33)
+2	genenv # general environmental concern (how worried 1-5)
+3	prchil # biggest problem for Chile (nominal)
+4	prchot # biggest problem for Chile other (text)
+5	prpers # biggest problem for person (nominal)
+6	prpeot # biggest problem for person other (text)
+7	govrol # government's role in environmental protection (dichotomous 0 passive, 1 active)
+
+#<ISSP 1993 Q5 ab Q6a, 2000 Q4># #Environmental Concerns and Economic Trade-offs (likert 1-5)
+8	envec1 # environment vs economy trade-off 1 (worry too much about environment)
+9	envec2 # environment vs economy trade-off 2 (almost everything damages environment)
+10	envec3 # environment vs economy trade-off 3 (too much concern about progress damaging environment)
+11	envec4 # environment vs economy trade-off 4 (Chile needs economic growth to protect environment)
+12	envec5 # environment vs economy trade-off 5 (economic growth always damages environment)
+13	envec6 # environment vs economy trade-off 6 (Earth can't sustain population growth)
+
+#nature conectedness (likert 1-5)
+14	natcn1 # nature connection 1 (part of same cycle)
+15	natcn2 # nature connection 2 (sense of unity)
+16	natcn3 # nature connection 3 (personal bond with nature)
+17	natcn4 # nature connection 4 (part of larger whole)
+
+#<ISSP 1993 Q9 ab, 2000 Q8># #Environmental protection attitudes (likert 1-5)
+18	envpa1 # environmental protection attitudes 1 (too difficult for me)
+19	envpa2 # environmental protection attitudes 2 (I do what's right despite cost)
+20	envpa3 # environmental protection attitudes 3 (more important things than protecting environment)
+21	envpa4 # environmental protection attitudes 4 (no point unless others do the same)
+22	envpa5 # environmental protection attitudes 5 (environmental threats exaggerated)
+23	envpa6 # environmental protection attitudes 6 (hard to know if my actions help/harm)
+24	envpa7 # environmental protection attitudes 7 (problems directly affect my daily life)
+
+
+#<ISSP 1993 Q21, 2000 Q21> #previous proenv behaviors (frecuency 0-4)
+25	penvb1 # pro environmental behavior 1 (contributed money/time to environmental group)
+26	penvb2 # pro environmental behavior 2 (avoided product causing environmental problems)
+27	penvb3 # pro environmental behavior 3 (voted for/against candidate based on environmental stance)
+28	penvb4 # pro environmental behavior 4 (changed behavior due to environmental concerns)
+29	penvb5 # pro environmental behavior 5 (participated in environmental protest/demonstration)
+30	penvb6 # pro environmental behavior 6 (signed an environmental petition)
+
+<ISSP 1993 Q8, 2000 Q7>  #personal economic sacrifice for environment
+31	pecsa1 # environmental sacrifice 1 (pay much higher prices)
+32	pecsa2 # environmental sacrifice 2 (pay much higher taxes)
+33	pecsa3 # environmental sacrifice 3 (accept cut in standard of living)
+
+# Wetlands knowledge and opinions (34-97)
+#mentions 
+34	wlknw1 # wetland knowledge 1 (Maria Behety)
+35	wlknw2 # wetland knowledge 2 (Tres Puentes)
+36	wlknw3 # wetland knowledge 3 (Pudeto)
+37	wlknw4 # wetland knowledge 4 (Bahia Lomas)
+38	wlknw5 # wetland knowledge 5 (other)
+39	wlknw6 # wetland knowledge 6 (don't know)
+40	wlknw7 # wetland knowledge 7 (none)
+41	wlknot # wetland knowledge other (specify)
+42	wlim01 # wetland importance 1 (air purification)
+43	wlim02 # wetland importance 2 (climate regulation)
+44	wlim03 # wetland importance 3 (flood mitigation)
+45	wlim04 # wetland importance 4 (water purification)
+46	wlim05 # wetland importance 5 (biodiversity conservation)
+47	wlim06 # wetland importance 6 (inspiration/beauty)
+48	wlim07 # wetland importance 7 (recreation/sports)
+49	wlim08 # wetland importance 8 (sense of well-being)
+50	wlim09 # wetland importance 9 (spirituality)
+51	wlim10 # wetland importance 10 (food for people)
+52	wlim11 # wetland importance 11 (tourism)
+53	wlim12 # wetland importance 12 (research/education)
+54	wlim13 # wetland importance 13 (intrinsic value)
+55	wlim14 # wetland importance 14 (not important)
+56	wlim15 # wetland importance 15 (don't know)
+57	wlan01 # wetland animals 1 (flamingos)
+58	wlan02 # wetland animals 2 (ducks)
+59	wlan03 # wetland animals 3 (swans)
+60	wlan04 # wetland animals 4 (birds of prey)
+61	wlan05 # wetland animals 5 (migratory birds)
+62	wlan06 # wetland animals 6 (muskrat)
+63	wlan07 # wetland animals 7 (dogs, cats)
+64	wlan08 # wetland animals 8 (insects)
+65	wlan09 # wetland animals 9 (horses and cattle)
+66	wlan10 # wetland animals 10 (hares, rabbits)
+67	wlan11 # wetland animals 11 (other)
+68	wlan12 # wetland animals 12 (none)
+69	wlanot # wetland animals other (specify)
+70	wlpl01 # wetland plants 1 (antarctic beech)
+71	wlpl02 # wetland plants 2 (lenga beech)
+72	wlpl03 # wetland plants 3 (calafate)
+73	wlpl04 # wetland plants 4 (herbs)
+74	wlpl05 # wetland plants 5 (trees)
+75	wlpl06 # wetland plants 6 (other)
+76	wlpl07 # wetland plants 7 (none)
+77	wlplot # wetland plants other (specify)
+78	wlth01 # wetland threat 1 (litter from people)
+79	wlth02 # wetland threat 2 (invasive species)
+80	wlth03 # wetland threat 3 (fires)
+81	wlth04 # wetland threat 4 (aggregate extraction)
+82	wlth05 # wetland threat 5 (climate change)
+83	wlth06 # wetland threat 6 (real estate projects)
+84	wlth07 # wetland threat 7 (wind projects)
+85	wlth08 # wetland threat 8 (stray dogs)
+86	wlth09 # wetland threat 9 (pets)
+87	wlth10 # wetland threat 10 (horses and cattle)
+88	wlth11 # wetland threat 11 (road projects)
+89	wlth12 # wetland threat 12 (no threats)
+90	wlth13 # wetland threat 13 (don't know)
+91	wlth14 # wetland threat 14 (other)
+92	wlthot # wetland threat other (specify)
+93	wlpri1 # wetland priority 1 (protecting wetlands should be a priority)
+94	wlpri2 # wetland priority 2 (protecting wetlands positively impacts my quality of life)
+95	wlpri3 # wetland priority 3 (loss of wetlands would affect me negatively)
+96	wlpri4 # wetland priority 4 (protecting wetlands is not important to me)
+97	wlrspn # who is responsible for wetland protection
+
+# Parque Maria Behety (110-152)
+98	mbfreq # Maria Behety visit frequency
+99	mbleng # Maria Behety visit duration
+100	mbac01 # Maria Behety activity 1 (family outings)
+101	mbac02 # Maria Behety activity 2 (meeting friends)
+102	mbac03 # Maria Behety activity 3 (walking)
+103	mbac04 # Maria Behety activity 4 (birdwatching/photography)
+104	mbac05 # Maria Behety activity 5 (sports)
+105	mbac06 # Maria Behety activity 6 (walking the dog)
+106	mbac07 # Maria Behety activity 7 (reading)
+107	mbac08 # Maria Behety activity 8 (studying)
+108	mbac09 # Maria Behety activity 9 (other)
+109	mbacot # Maria Behety activity other (specify)
+110	mbtran # Maria Behety transportation
+111	mbtrot # Maria Behety transportation other (specify)
+112	mbaccs # Maria Behety accessibility
+113	mbstat # Maria Behety current state
+114	mbbe01 # Maria Behety benefit 1 (green lung of the city)
+115	mbbe02 # Maria Behety benefit 2 (space for recreation)
+116	mbbe03 # Maria Behety benefit 3 (space for sports)
+117	mbbe04 # Maria Behety benefit 4 (nature contemplation)
+118	mbbe05 # Maria Behety benefit 5 (reduces flood risk)
+119	mbbe06 # Maria Behety benefit 6 (mental health/well-being)
+120	mbbe07 # Maria Behety benefit 7 (biodiversity conservation)
+121	mbbe08 # Maria Behety benefit 8 (inspiration)
+122	mbbe09 # Maria Behety benefit 9 (tourism/heritage route)
+123	mbbe10 # Maria Behety benefit 10 (climate regulation)
+124	mbbe11 # Maria Behety benefit 11 (environmental education)
+125	mbbe12 # Maria Behety benefit 12 (scientific research)
+126	mbbe13 # Maria Behety benefit 13 (none)
+127	mbbe14 # Maria Behety benefit 14 (don't know)
+128	mbbemi # Maria Behety most important benefit
+129	mbpr01 # Maria Behety problem 1 (litter)
+130	mbpr02 # Maria Behety problem 2 (poor maintenance)
+131	mbpr03 # Maria Behety problem 3 (noise)
+132	mbpr04 # Maria Behety problem 4 (stray dogs)
+133	mbpr05 # Maria Behety problem 5 (unleashed dogs)
+134	mbpr06 # Maria Behety problem 6 (drought)
+135	mbpr07 # Maria Behety problem 7 (concerts and mass activities)
+136	mbpr08 # Maria Behety problem 8 (other)
+137	mbprot # Maria Behety problem other (specify)
+138	mblvis # Maria Behety last visit
+139	mbnvis # Maria Behety reason for not visiting
+140	mbnvot # Maria Behety reason for not visiting other (specify)
+
+# Humedal Tres Puentes (153-197)
+141	tpfreq # Tres Puentes visit frequency
+142	tpleng # Tres Puentes visit duration
+143	tpac01 # Tres Puentes activity 1 (family outings)
+144	tpac02 # Tres Puentes activity 2 (meeting friends)
+145	tpac03 # Tres Puentes activity 3 (walking)
+146	tpac04 # Tres Puentes activity 4 (birdwatching/photography)
+147	tpac05 # Tres Puentes activity 5 (running)
+148	tpac06 # Tres Puentes activity 6 (walking the dog)
+149	tpac07 # Tres Puentes activity 7 (reading)
+150	tpac08 # Tres Puentes activity 8 (studying)
+151	tpac09 # Tres Puentes activity 9 (other)
+152	tpacot # Tres Puentes activity other (specify)
+153	tptran # Tres Puentes transportation
+154	tptrot # Tres Puentes transportation other (specify)
+155	tpaccs # Tres Puentes accessibility
+156	tpstat # Tres Puentes current state
+157	tpbe01 # Tres Puentes benefit 1 (green lung of the city)
+158	tpbe02 # Tres Puentes benefit 2 (space for recreation)
+159	tpbe03 # Tres Puentes benefit 3 (space for sports)
+160	tpbe04 # Tres Puentes benefit 4 (nature contemplation)
+161	tpbe05 # Tres Puentes benefit 5 (reduces flood risk)
+162	tpbe06 # Tres Puentes benefit 6 (mental health/well-being)
+163	tpbe07 # Tres Puentes benefit 7 (biodiversity conservation)
+164	tpbe08 # Tres Puentes benefit 8 (inspiration)
+165	tpbe09 # Tres Puentes benefit 9 (tourism/heritage route)
+166	tpbe10 # Tres Puentes benefit 10 (climate regulation)
+167	tpbe11 # Tres Puentes benefit 11 (environmental education)
+168	tpbe12 # Tres Puentes benefit 12 (scientific research)
+169	tpbe13 # Tres Puentes benefit 13 (none)
+170	tpbe14 # Tres Puentes benefit 14 (don't know)
+171	tpbemi # Tres Puentes most important benefit
+172	tppr01 # Tres Puentes problem 1 (litter)
+173	tppr02 # Tres Puentes problem 2 (poor maintenance)
+174	tppr03 # Tres Puentes problem 3 (noise)
+175	tppr04 # Tres Puentes problem 4 (stray dogs)
+176	tppr05 # Tres Puentes problem 5 (unleashed dogs)
+177	tppr06 # Tres Puentes problem 6 (drought)
+178	tppr07 # Tres Puentes problem 7 (real estate projects)
+179	tppr08 # Tres Puentes problem 8 (road projects)
+180	tppr09 # Tres Puentes problem 9 (truck parking)
+181	tppr10 # Tres Puentes problem 10 (other)
+182	tpprot # Tres Puentes problem other (specify)
+183	tplvis # Tres Puentes last visit
+184	tpnvis # Tres Puentes reason for not visiting
+185	tpnvot # Tres Puentes reason for not visiting other (specify)
+
+# Behavior intentions for wetland conservation (198-207)  
+186	bint01 # behavior intention 1 (participate in wetland cleanup)
+187	bint02 # behavior intention 2 (join local wetland protection groups)  
+188	bint03 # behavior intention 3 (personal responsibility to protect wetlands)
+189	bint04 # behavior intention 4 (learn more about wetlands)
+190	bint05 # behavior intention 5 (attend wetland workshops/events)
+191	bint06 # behavior intention 6 (donate money for wetland conservation)
+192	bint07 # behavior intention 7 (make lifestyle changes to protect wetlands)
+193	bint08 # behavior intention 8 (support wetland protection policies)
+194	bint09 # behavior intention 9 (support building houses on wetlands) 
+195	bint10 # behavior intention 10 (buy a house built on a wetland)
+
+# Regional social identification (208-211)
+196	regid1 # regional identity 1 (identify as Magellanic)
+197	regid2 # regional identity 2 (feel committed to Magellanics)  
+198	regid3 # regional identity 3 (living in Magallanes brings joy)
+199	regid4 # regional identity 4 (living in Magallanes is important)
+
+# Place attachment (212-215)
+200	place1 # place attachment 1 (like living in Punta Arenas)
+201	place2 # place attachment 2 (would regret moving to another city)
+202	place3 # place attachment 3 (feel at home in Punta Arenas)  
+203	place4 # place attachment 4 (miss Punta Arenas when away)
+
+# Background/demographic variables (216-234)
+204	nation # nationality 
+205	natiot # nationality other (specify)
+206	bplace # birthplace (mother's residence at birth)
+207	bplaot # birthplace other (specify)  
+208	ethnic # ethnicity (indigenous descent)
+209	ethnot # ethnicity other (specify)
+210	educat # education level
+211	emplst # employment status
+212	occupa # occupation
+213	gender # gender
+214	agepar # age
+215	sexpar # sex
+216	agegrp # age group (recoded) 
+217	educar # education level (recoded)
+
+# Survey context additional variables (218-225)
+218	srtmon # survey time: month	
+219	srtday # survey time: day of month
+220	srtdow # survey time: day of week
+221	srthou # survey time: hour
+222	srtdos # survey time: day of survey
+223	duratn # recorded duration of interview
+224	encnam # interviewer name
+225 weight # weighting factor
