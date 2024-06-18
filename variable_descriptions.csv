@@ -1,0 +1,226 @@
+variable,description
+caseid,case id
+genenv,how worried 1-5
+prchil,nominal
+prchot,text
+prpers,nominal
+prpeot,text
+govrol,dichotomous 0 passive 1 active
+envec1,worry too much about environment
+envec2,almost everything damages environment
+envec3,too much concern about progress damaging environment
+envec4,Chile needs economic growth to protect environment
+envec5,economic growth always damages environment
+envec6,Earth can't sustain population growth
+natcn1,part of same cycle
+natcn2,sense of unity
+natcn3,personal bond with nature
+natcn4,part of larger whole
+envpa1,too difficult for me
+envpa2,I do what's right despite cost
+envpa3,more important things than protecting environment
+envpa4,no point unless others do the same
+envpa5,environmental threats exaggerated
+envpa6,hard to know if my actions help/harm
+envpa7,problems directly affect my daily life
+penvb1,contributed money/time to environmental group
+penvb2,avoided product causing environmental problems
+penvb3,voted for/against candidate based on environmental stance
+penvb4,changed behavior due to environmental concerns
+penvb5,participated in environmental protest/demonstration
+penvb6,signed an environmental petition
+pecsa1,pay much higher prices
+pecsa2,pay much higher taxes
+pecsa3,accept cut in standard of living
+wlknw1,Maria Behety
+wlknw2,Tres Puentes
+wlknw3,Pudeto
+wlknw4,Bahia Lomas
+wlknw5,other
+wlknw6,don't know
+wlknw7,none
+wlknot,specify
+wlim01,air purification
+wlim02,climate regulation
+wlim03,flood mitigation
+wlim04,water purification
+wlim05,biodiversity conservation
+wlim06,inspiration/beauty
+wlim07,recreation/sports
+wlim08,sense of well-being
+wlim09,spirituality
+wlim10,food for people
+wlim11,tourism
+wlim12,research/education
+wlim13,intrinsic value
+wlim14,not important
+wlim15,don't know
+wlan01,flamingos
+wlan02,ducks
+wlan03,swans
+wlan04,birds of prey
+wlan05,migratory birds
+wlan06,muskrat
+wlan07,dogs cats
+wlan08,insects
+wlan09,horses and cattle
+wlan10,hares rabbits
+wlan11,other
+wlan12,none
+wlanot,specify
+wlpl01,antarctic beech
+wlpl02,lenga beech
+wlpl03,calafate
+wlpl04,herbs
+wlpl05,trees
+wlpl06,other
+wlpl07,none
+wlplot,specify
+wlth01,litter from people
+wlth02,invasive species
+wlth03,fires
+wlth04,aggregate extraction
+wlth05,climate change
+wlth06,real estate projects
+wlth07,wind projects
+wlth08,stray dogs
+wlth09,pets
+wlth10,horses and cattle
+wlth11,road projects
+wlth12,no threats
+wlth13,don't know
+wlth14,other
+wlthot,specify
+wlpri1,protecting wetlands should be a priority
+wlpri2,protecting wetlands positively impacts my quality of life
+wlpri3,loss of wetlands would affect me negatively
+wlpri4,protecting wetlands is not important to me
+wlrspn,who is responsible for wetland protection
+mbfreq,Maria Behety visit frequency
+mbleng,Maria Behety visit duration
+mbac01,family outings
+mbac02,meeting friends
+mbac03,walking
+mbac04,birdwatching/photography
+mbac05,sports
+mbac06,walking the dog
+mbac07,reading
+mbac08,studying
+mbac09,other
+mbacot,specify
+mbtran,Maria Behety transportation
+mbtrot,specify
+mbaccs,Maria Behety accessibility
+mbstat,Maria Behety current state
+mbbe01,green lung of the city
+mbbe02,space for recreation
+mbbe03,space for sports
+mbbe04,nature contemplation
+mbbe05,reduces flood risk
+mbbe06,mental health/well-being
+mbbe07,biodiversity conservation
+mbbe08,inspiration
+mbbe09,tourism/heritage route
+mbbe10,climate regulation
+mbbe11,environmental education
+mbbe12,scientific research
+mbbe13,none
+mbbe14,don't know
+mbbemi,Maria Behety most important benefit
+mbpr01,litter
+mbpr02,poor maintenance
+mbpr03,noise
+mbpr04,stray dogs
+mbpr05,unleashed dogs
+mbpr06,drought
+mbpr07,concerts and mass activities
+mbpr08,other
+mbprot,specify
+mblvis,Maria Behety last visit
+mbnvis,Maria Behety reason for not visiting
+mbnvot,specify
+tpfreq,Tres Puentes visit frequency
+tpleng,Tres Puentes visit duration
+tpac01,family outings
+tpac02,meeting friends
+tpac03,walking
+tpac04,birdwatching/photography
+tpac05,running
+tpac06,walking the dog
+tpac07,reading
+tpac08,studying
+tpac09,other
+tpacot,specify
+tptran,Tres Puentes transportation
+tptrot,specify
+tpaccs,Tres Puentes accessibility
+tpstat,Tres Puentes current state
+tpbe01,green lung of the city
+tpbe02,space for recreation
+tpbe03,space for sports
+tpbe04,nature contemplation
+tpbe05,reduces flood risk
+tpbe06,mental health/well-being
+tpbe07,biodiversity conservation
+tpbe08,inspiration
+tpbe09,tourism/heritage route
+tpbe10,climate regulation
+tpbe11,environmental education
+tpbe12,scientific research
+tpbe13,none
+tpbe14,don't know
+tpbemi,Tres Puentes most important benefit
+tppr01,litter
+tppr02,poor maintenance
+tppr03,noise
+tppr04,stray dogs
+tppr05,unleashed dogs
+tppr06,drought
+tppr07,real estate projects
+tppr08,road projects
+tppr09,truck parking
+tppr10,other
+tpprot,specify
+tplvis,Tres Puentes last visit
+tpnvis,Tres Puentes reason for not visiting
+tpnvot,specify
+bint01,participate in wetland cleanup
+bint02,join local wetland protection groups
+bint03,personal responsibility to protect wetlands
+bint04,learn more about wetlands
+bint05,attend wetland workshops/events
+bint06,donate money for wetland conservation
+bint07,make lifestyle changes to protect wetlands
+bint08,support wetland protection policies
+bint09,support building houses on wetlands
+bint10,buy a house built on a wetland
+regid1,identify as Magellanic
+regid2,feel committed to Magellanics
+regid3,living in Magallanes brings joy
+regid4,living in Magallanes is important
+place1,like living in Punta Arenas
+place2,would regret moving to another city
+place3,feel at home in Punta Arenas
+place4,miss Punta Arenas when away
+nation,nationality
+natiot,specify
+bplace,mother's residence at birth
+bplaot,specify
+ethnic,indigenous descent
+ethnot,specify
+educat,education level
+emplst,employment status
+occupa,occupation
+gender,gender
+agepar,age
+sexpar,sex
+agegrp,recoded
+educar,recoded
+srtmon,month
+srtday,day of month
+srtdow,day of week
+srthou,hour
+srtdos,day of survey
+duratn,recorded duration of interview
+encnam,interviewer name
+weight,weighting factor

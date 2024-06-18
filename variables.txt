@@ -107,10 +107,12 @@
 90	wlth13 # wetland threat 13 (don't know)
 91	wlth14 # wetland threat 14 (other)
 92	wlthot # wetland threat other (specify)
+#likert 
 93	wlpri1 # wetland priority 1 (protecting wetlands should be a priority)
 94	wlpri2 # wetland priority 2 (protecting wetlands positively impacts my quality of life)
 95	wlpri3 # wetland priority 3 (loss of wetlands would affect me negatively)
 96	wlpri4 # wetland priority 4 (protecting wetlands is not important to me)
+#nominal
 97	wlrspn # who is responsible for wetland protection
 
 # Parque Maria Behety (110-152)

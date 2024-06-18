@@ -1,7 +1,11 @@
-options(max.print = 99999)
+##########################################################################
+# 11setup.R                                                              #
+# 1.1 Overall setup for obtaining dfs suitable for analyses (odf and idf)#
+##########################################################################
 
-#load rds datafile
-odf <- readRDS("base_humedales_final.rds")
+options(digits = 3);options(scipen = 999);options(max.print = 5000)
+
+odf <- readRDS("base_humedales_final.rds")#load rds datafile
 #file not provided as it contains sensitive info, however final dataset is loaded at the end of this file
 
 #install and load dplyr package
@@ -418,6 +422,12 @@ odf$srtdos <- as.numeric(as.Date(odf$finisd) - as.Date(min(odf$finisd))) + 1
 odf$prchil[odf$prchil == "-888. No sabe (no leer)"] <- NA
 odf$prpers[odf$prpers == "-888. No sabe (no leer)"] <- NA
 odf$emplst[odf$emplst == "99. No responde (no leer)"] <- NA
+
+#quick fix mbleng tpleng so they don't have as many NAs (logic fix)
+odf$mbleng[odf$mbfreq == 0] <- 0 #length of stay becomes 0 if they say they don't go
+odf$tpleng[odf$tpfreq == 0] <- 0 #length of stay becomes 0 if they say they don't go
+#this might induce problematic collinearity for some analyses, but allows not losing n of people say they don't visit these places
+
 # Recode odf$educar as a numerical ordinal variable
 odf$educar <- as.numeric(factor(odf$educar,
                                 levels = c("Menos que Básica", "Ed. Básica", "Ed. Media", "Técnica Superior", "Universitaria o más", "Sin información"),
@@ -429,8 +439,29 @@ odf <- odf[, c(1, 4:8,26,9:25,27:219,221:225, 2, 3,220)]
 saveRDS(odf, "uwlpuq.rds")
 odf <- readRDS("uwlpuq.rds")
 
+#if needed, here's a version of the df with imputed data, idf
+#install.packages("mice")
+library(mice)
+
+# Impute missing data using MICE
+#imputed_data <- mice::mice(odf, method = 'pmm', m = 2)
+
+# Set random seed from random.org (powered by RANDOM.ORG)
+# Seed: 225; Min: 1, Max: 10000; 2024-06-18 13:49:13 UTC
+#imputed_data <- mice(odf, m = 3, maxit = 20, method = 'pmm', seed = 225)
+#imputed_data <- mice(odf, m = 10, maxit = 100, method = 'pmm', seed = 225)
+
+# Save the imputed dataframe as 'idf'
+idf <- complete(imputed_data)
+
+# Save 'idf' as an RDS file named 'uwlpui.rds'
+saveRDS(idf, file = "uwlpui.rds")
+
 #cleanup
 rm(list = setdiff(ls(), "odf"))  # Remove all objects except 'odf'
 lapply(setdiff(loadedNamespaces(), base::loadedNamespaces()), function(pkg) try(detach(paste("package", pkg, sep = ":"), character.only = TRUE, unload = TRUE), silent = TRUE))  # Unload all non-base packages
+idf <- readRDS("uwlpui.rds")
 
 #now the analyses can be performed...
+#odf is the original data, just re-arranged, re-ordered, with vars filtered out for sensitive and redundant data
+#idf is the imputed dataset, if needed
