@@ -32,7 +32,6 @@
 23	envpa6 # environmental protection attitudes 6 (hard to know if my actions help/harm)
 24	envpa7 # environmental protection attitudes 7 (problems directly affect my daily life)
 
-
 #<ISSP 1993 Q21, 2000 Q21> #previous proenv behaviors (frecuency 0-4)
 25	penvb1 # pro environmental behavior 1 (contributed money/time to environmental group)
 26	penvb2 # pro environmental behavior 2 (avoided product causing environmental problems)
@@ -56,6 +55,7 @@
 39	wlknw6 # wetland knowledge 6 (don't know)
 40	wlknw7 # wetland knowledge 7 (none)
 41	wlknot # wetland knowledge other (specify)
+
 42	wlim01 # wetland importance 1 (air purification)
 43	wlim02 # wetland importance 2 (climate regulation)
 44	wlim03 # wetland importance 3 (flood mitigation)
